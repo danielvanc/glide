@@ -1,0 +1,21 @@
+{
+    "name": "glide",
+    "displayName": "Glide",
+    "description": "An easy on the eye VS Code theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Glide",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Glide-color-theme.json"
+            }
+        ]
+    }
+}
