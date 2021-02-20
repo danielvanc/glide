@@ -11,6 +11,10 @@ import Layout from "../components/Layout";
 import BoundaryExample from "../utilities/ErrorBoundries";
 import CookieBar from "../components/CookieBar/index";
 
+export default function Hello() {
+  
+}
+
 const Home = () => {
   // const { loading, error, data } = useQuery(PAGE_QUERY);
   const [cookiesSelected, setCookiesSelected] = useState(true);
