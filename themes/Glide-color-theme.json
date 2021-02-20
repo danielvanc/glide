@@ -242,6 +242,23 @@
         "foreground": "#D08DF0"
       }
     },
+
+    {
+      "name": "Keyword, Storage",
+      "scope": [
+        "variable.other.jsdoc",
+        "storage.type",
+        "punctuation.definition.block.tag.jsdoc",
+        "entity.name.type.instance.jsdoc",
+        "comment.block.documentation.js",
+        "source.js"
+      ],
+      "settings": {
+        // "fontStyle": "italic",
+        "foreground": "#4B537B"
+      }
+    },
+
     {
       "name": "Operator, Misc",
       "scope": [
