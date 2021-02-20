@@ -236,18 +236,9 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
-      "settings": {
-        // "fontStyle": "italic",
-        "foreground": "#D08DF0"
-      }
-    },
-
-    {
-      "name": "Keyword, Storage",
       "scope": [
         "variable.other.jsdoc",
-        "storage.type",
+        // "storage.type",
         "punctuation.definition.block.tag.jsdoc",
         "entity.name.type.instance.jsdoc",
         "comment.block.documentation.js",
@@ -256,6 +247,25 @@
       "settings": {
         // "fontStyle": "italic",
         "foreground": "#4B537B"
+      }
+    },
+
+    {
+      "name": "Keyword, Storage",
+      "scope": ["keyword", "storage.type", "storage.modifier", "source.js"],
+      "settings": {
+        // "fontStyle": "italic",
+        "foreground": "#D08DF0"
+      }
+    },
+
+    {
+      "name": "Keyword, Storage",
+      "scope": ["source.js"],
+      "settings": {
+        // "fontStyle": "italic",
+        // "foreground": "#D08DF0"
+        "foreground": "#89a4bb"
       }
     },
 
@@ -321,11 +331,11 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        // "foreground": "#ED57B8"
-        // "foreground": "#A7E86E"
+        // "foreground": "#BF4FB7"
+        "foreground": "#A7E86E"
         // "foreground": "#F8E88F"
-        "foreground": "#94E0B9"
-        // "foreground": "#C2EDE6"
+        // "foreground": "#94E0B9"
+        // "foreground": "#82AAFF"
         // "foreground": "#BDE666"
       }
     },
