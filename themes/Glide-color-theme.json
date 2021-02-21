@@ -188,7 +188,12 @@
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.untrackedResourceForeground": "#c5e478ff",
     "gitDecoration.ignoredResourceForeground": "#395a75",
-    "gitDecoration.conflictingResourceForeground": "#ffeb95cc"
+    "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
+
+    "scrollbarSlider.activeBackground": "#79AAFF",
+    "scrollbarSlider.background": "#2A0D76",
+    // "scrollbarSlider.hoverBackground": "#936BE5"
+    "scrollbarSlider.hoverBackground": "#936BE5"
   },
   "tokenColors": [
     {
