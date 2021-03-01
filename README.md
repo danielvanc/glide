@@ -19,8 +19,6 @@ to the eye, but to which also helps aid focus and concentration.
 ### Contributing
 I welcome others to help work on this theme. Contributers will be credited.
 
-Please read the [contributing notes](https)
-
 - Clone this repo and open in VS Code
 - Open run View → Run
 - Click Launch Extension. This will open up another VS Code Editor
