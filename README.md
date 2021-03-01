@@ -13,9 +13,6 @@ to the eye, but to which also helps aid focus and concentration.
 - Search for Glide - by danielvanc
 - Click Install to install it.
 - Code > Preferences > Color Theme > Glide
-
-### Main Colours
-
 ### Contributing
 I welcome others to help work on this theme. Contributers will be credited.
 
