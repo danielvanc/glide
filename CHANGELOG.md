@@ -2,8 +2,6 @@
 
 All notable changes to the "glide" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 0.1.0
 
-## [Unreleased]
-
-- Initial release
+- Initial release: Support for JavaScript / React and HTML syntax.
