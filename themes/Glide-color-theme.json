@@ -3,6 +3,9 @@
   "type": "dark",
   "colors": {
     // Colour pallete
+    // #883871
+    // #D08DF0
+    // #7161F0
     // #936BE5
     // #5EBDFD
     // #44596b
@@ -208,7 +211,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "fontStyle": "italic",
+        // "fontStyle": "italic",
         // "foreground": "#8C8AF2"
         // "foreground": "#79AAFF"
         // "foreground": "#d1cdcd"
@@ -252,6 +255,7 @@
       "settings": {
         // "fontStyle": "italic",
         "foreground": "#4B537B"
+        // "foreground": "#89DDFF"
       }
     },
 
@@ -260,7 +264,22 @@
       "scope": ["keyword", "storage.type", "storage.modifier", "source.js"],
       "settings": {
         // "fontStyle": "italic",
+        // "foreground": "#D08DF0"
+        // "foreground": "#883871"
+        // "foreground": "#7161F0"
+        "foreground": "#BF4FB7"
+      }
+    },
+
+    {
+      "name": "Keyword, Storage",
+      "scope": ["storage.type", "storage.modifier"],
+      "settings": {
+        // "fontStyle": "italic",
         "foreground": "#D08DF0"
+        // "foreground": "#883871"
+        // "foreground": "#7161F0"
+        // "foreground": "#BF4FB7"
       }
     },
 
@@ -270,7 +289,8 @@
       "settings": {
         // "fontStyle": "italic",
         // "foreground": "#D08DF0"
-        "foreground": "#89a4bb"
+        // "foreground": "#89a4bb"
+        "foreground": "#89DDFF"
       }
     },
 
@@ -297,8 +317,9 @@
       "settings": {
         // "foreground": "#5DDECA"
         // "foreground": "#424B77"
-        // "foreground": "#883871"
-        "foreground": "#9159DB"
+        // "foreground": "#7161F0"
+        // "foreground": "#9159DB"
+        "foreground": "#883871"
       }
     },
     {
@@ -313,10 +334,11 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        // "foreground": "#89DDFF"
+        "foreground": "#89a4bb"
         // "foreground": "#BF4FB7"
         // "foreground": "#5DDECA"
-        "foreground": "#89a4bb"
+        // "foreground": "#89a4bb"
+        // "foreground": "#ffeb95cc"
       }
     },
     {
@@ -324,8 +346,9 @@
       "scope": ["keyword.control"],
       "settings": {
         // "foreground": "#89DDFF"
-        // "foreground": "#BF4FB7"
-        "foreground": "#D08DF0"
+        "foreground": "#BF4FB7"
+        // "foreground": "#D08DF0"
+        // "foreground": "#883871"
       }
     },
     {
@@ -372,6 +395,8 @@
         // "foreground": "#82AAFF"
         // "foreground": "#94E0B9"
         "foreground": "#79AAFF"
+        // "foreground": "#77A9FF"
+        // "foreground": "#5EBDFD"
       }
     },
     {
