@@ -115,7 +115,7 @@
     "editorGutter.modifiedBackground": "#e2b93d",
     "editorGutter.addedBackground": "#9CCC65",
     "editorGutter.deletedBackground": "#EF5350",
-    
+
     "diffEditor.insertedTextBackground": "#66853823",
     // "diffEditor.insertedTextBorder": "#c5e47833",
     "diffEditor.removedTextBackground": "#ef535033",
@@ -218,7 +218,7 @@
       "name": "Variables GraphQL",
       "scope": ["variable.graphql", "string constant.other.placeholder"],
       "settings": {
-        "fontStyle": "italic",
+        // "fontStyle": "italic",
         "foreground": "#a2bffc"
       }
     },
