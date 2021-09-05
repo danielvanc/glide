@@ -208,21 +208,6 @@
       }
     },
     {
-      "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
-      "settings": {
-        "foreground": "#D6DBE0"
-      }
-    },
-    {
-      "name": "Variables GraphQL",
-      "scope": ["variable.graphql", "string constant.other.placeholder"],
-      "settings": {
-        // "fontStyle": "italic",
-        "foreground": "#a2bffc"
-      }
-    },
-    {
       "name": "Colors",
       "scope": ["constant.other.color"],
       "settings": {
@@ -270,7 +255,7 @@
 
     {
       "name": "Keyword, Storage",
-      "scope": ["source.js"],
+      "scope": ["source.js", "meta.function.ts", "meta.object-literal.key.tsx"],
       "settings": {
         "foreground": "#89DDFF"
       }
@@ -417,7 +402,7 @@
     },
     {
       "name": "Entity Types",
-      "scope": ["support.type"],
+      "scope": ["support.type", "variable.other.object.tsx", "variable.other.constant.property.tsx", "variable.other.object.property.tsx"],
       "settings": {
         "foreground": "#B2CCD6"
       }
@@ -441,7 +426,9 @@
       "scope": [
         "entity.name.module.js",
         "variable.import.parameter.js",
-        "variable.other.class.js"
+        "variable.other.class.js",
+        "variable.other.object.tsx",
+        "variable.other.object.ts"
       ],
       "settings": {
         // "foreground": "#9159DB"
@@ -817,6 +804,21 @@
       "settings": {
         "foreground": "#EEFFFF"
       }
-    }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "string constant.other.placeholder", "variable.other.constant.tsx", "meta.block variable.other",  "source.tsx", "variable.parameter"],
+      "settings": {
+        "foreground": "#D6DBE0"
+      }
+    },
+    {
+      "name": "Variables GraphQL",
+      "scope": ["variable.graphql", "string constant.other.placeholder"],
+      "settings": {
+        // "fontStyle": "italic",
+        "foreground": "#a2bffc"
+      }
+    },
   ]
 }
